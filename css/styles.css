@@ -76,8 +76,7 @@ main{
 
 /* ___________________________ ABOUT ______________________________ */
 
-.about {
-}
+/* .about {} */
 
 .container-about{
     display: flex;
@@ -88,9 +87,7 @@ main{
     padding-top: 85px;
 }
 
-.about-img {
-
-}
+/* .about-img {} */
 .about-title {
     width: 527px;
 }
