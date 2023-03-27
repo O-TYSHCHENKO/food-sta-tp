@@ -1,0 +1,47 @@
+
+/* __________________________ favorites __________________________________ */
+img{
+    max-width: 100%;
+    height: auto;
+}
+.favorites-title {
+    font-size: 42px;
+    line-height: calc(49px / 42px);
+    text-align: center;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+.favorites-text {
+    font-size: 16px;
+    line-height: calc(19px / 16px);
+    text-align: center;
+    color: var(--color-black);
+    margin-bottom: 40px;
+}
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px; 
+}
+.favorites-img {
+    border: 16px solid var(--color-yellow-main);
+    border-radius: 197.5px;
+    background: var(--color-white);
+    padding: calc(41px - 16px) calc(40px - 16px);
+}
+.favorites-img:is(:hover, :focus) {
+    border: 16px solid var(--color-button-green);
+    border-radius: 197.5px;
+}
+/* img/pasta and img/salat smaller border-radius  */
+
+.favorites-smaller-img {
+    border: 16px solid var(--color-yellow-main);
+    border-radius: 197px;
+    background: var(--color-white);
+    padding: calc(41px - 16px) calc(40px - 16px) calc(41px - 16px) calc(39px - 16px);
+}
+.favorites-smaller-img:is(:hover, :focus) {
+    border: 16px solid var(--color-button-green);
+    border-radius: 197px;
+}
