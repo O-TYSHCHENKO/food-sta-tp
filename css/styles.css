@@ -6,8 +6,8 @@
   --color-black: #2c2c2c;
   --color-white: #fefefe;
   --color-shadow-fruit: radial-gradient(#2f583f 0%, #696969 100%);
-  --color-grad-1: linear-gradient(to bottom, #fe88b3 0%, #ff4d8d 100%);
-  --color-grad-2: linear-gradient(
+  --color-grad-one: linear-gradient(to bottom, #fe88b3 0%, #ff4d8d 100%);
+  --color-grad-one: linear-gradient(
     to bottom,
     #fdfdfd 0%,
     #fff5f9 23.87%,
@@ -69,7 +69,7 @@ img {
   margin-bottom: 20px;
 }
 
-.title-text-2 {
+.title-text-two {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
