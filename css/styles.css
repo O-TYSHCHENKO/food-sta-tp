@@ -47,15 +47,14 @@ body {
 }
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
-  width: 1248px;
+  max-width: 1280px;
+  padding: 0px 16px;
   margin: 0 auto;
-}
-
-main {
-  width: 1280px;
 }
 
 .section {
