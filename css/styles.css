@@ -1,5 +1,4 @@
 :root {
-
   --color-button-green: #bbf330;
   --color-dark-green: #7eb101;
   --color-yellow-main: #ffe550;
@@ -147,6 +146,41 @@ img {
   background-color: var(--color-yellow-main);
 }
 /* _______________________________/HEADER_________________________ */
+/* _______________________________/HERO_________________________ */
+.hero-container {
+  display: flex;
+  background-color: #f5f5f5;
+}
+.hero-title {
+  margin-top: 159px;
+  margin-bottom: 28px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-box {
+  width: 511px;
+}
+.hero-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  width: 580px;
+  height: 580px;
+  margin-left: auto;
+  border-radius: 50%;
+  border: 26px solid var(--color-yellow-main);
+}
+
+.hero-img {
+  border-radius: 50%;
+}
+/* _______________________________/HERO_________________________ */
+
 /* ___________________________ ABOUT ______________________________ */
 
 /* .about {} */
@@ -201,5 +235,4 @@ img {
   background-color: var(--color-button-green);
   transition-duration: 0.5s;
   cursor: pointer;
-
 }
