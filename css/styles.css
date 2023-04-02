@@ -1,5 +1,4 @@
 :root {
-
   --color-button-green: #bbf330;
   --color-dark-green: #7eb101;
   --color-yellow-main: #ffe550;
@@ -90,6 +89,7 @@ img {
 }
 
 .logo {
+  flex-shrink: 0;
   margin-right: auto;
 }
 
@@ -201,5 +201,4 @@ img {
   background-color: var(--color-button-green);
   transition-duration: 0.5s;
   cursor: pointer;
-
 }
