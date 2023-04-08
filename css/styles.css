@@ -36,7 +36,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: var(--color-black);
+  color: var(--color-black, #2c2c2c);
 }
 .list {
   list-style: none;
@@ -79,6 +79,19 @@ img {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 40px;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: calc(20 / 13);
+  color: var(--color-black, #2c2c2c);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* _______________________________HEADER_________________________ */
@@ -236,4 +249,40 @@ img {
   background-color: var(--color-button-green);
   transition-duration: 0.5s;
   cursor: pointer;
+}
+
+/** -------------- SUBSCRIBE --------- */
+
+.subscribe {
+  padding: 0;
+  background-color: var(--color-white), #fefefe;
+}
+
+.subscribe-container {
+  display: flex;
+}
+
+.subscribe-form {
+  margin-top: 46px;
+  margin-bottom: 36px;
+}
+
+.subscribe-title {
+}
+
+.subscribe-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  margin-bottom: 24px;
+}
+
+.subscribe-btn {
+  min-width: 103px;
+  height: 42px;
+  color: var(--color-black, #2c2c2c);
+  background-color: var(--color-button-green, #bbf330);
+  padding: 11px 22px;
+}
+.subscribe-btn:is(:hover, :focus) {
+  background-color: #ffe450;
 }
