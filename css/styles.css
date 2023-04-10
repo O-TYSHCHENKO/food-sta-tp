@@ -90,6 +90,7 @@ img {
   border: 1px solid transparent;
   border-radius: 30px;
   display: flex;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
 }
@@ -254,8 +255,10 @@ img {
 /** -------------- SUBSCRIBE --------- */
 
 .subscribe {
-  padding: 0;
   background-color: var(--color-white), #fefefe;
+  position: relative;
+  margin-top: -66px;
+  margin-bottom: 64px;
 }
 
 .subscribe-container {
@@ -263,6 +266,7 @@ img {
 }
 
 .subscribe-form {
+  min-width: 656px;
   margin-top: 46px;
   margin-bottom: 36px;
 }
@@ -271,6 +275,7 @@ img {
 }
 
 .subscribe-text {
+  max-width: 532px;
   font-size: 16px;
   line-height: calc(24 / 16);
   margin-bottom: 24px;
@@ -285,4 +290,10 @@ img {
 }
 .subscribe-btn:is(:hover, :focus) {
   background-color: #ffe450;
+}
+
+.subscribe-img {
+  max-width: 608px;
+  position: relative;
+  margin-left: -16px;
 }
